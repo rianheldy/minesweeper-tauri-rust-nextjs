@@ -3,10 +3,12 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main>
-      <div className='bg-teal-700 w-screen h-screen flex flex-row flex-nowrap items-center justify-center'>
-
-      </div>
+    <main className='relative'>
+      <section className='transition-all relative w-72 shadow-myboxshadow rounded-2xl z-10'>
+        <header className='relative bg-[rgba(255,255,255,.2)] pt-7 pb-3 pl-7 pr-7 text-right rounded-tl-2xl rounded-tr-2xl backdrop-blur-2xl shadow-header-shadow'>
+          <div className='text-lg mb-1'>5874 + 2123</div>
+        </header>
+      </section>
     </main>
   )
 }
